@@ -1,5 +1,5 @@
 import mysql.connector
-from env import user
+from env import env
 
-db = mysql.connector.connect(**user)
+db = mysql.connector.connect(**env)
 cursor = db.cursor()

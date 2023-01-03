@@ -51,4 +51,4 @@ def delete_log(id):
 #get_logs('logs','created')
 #get_log('logs',1)
 #update_log(2,'replace')
-delete_log(2)
+#delete_log(2)
